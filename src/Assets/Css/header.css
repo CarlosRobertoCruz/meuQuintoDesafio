@@ -1,0 +1,54 @@
+.header{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--azul);
+    font-family: 'Roboto', sans-serif;
+}
+
+.alinhamentoHeader{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parteDaLogo{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+
+}
+
+.buttonsHeader{
+    display: flex;
+    width: 374px;
+    justify-content: space-between;
+}
+
+.imgHeader{
+    max-width: 174px;
+    max-height: 64px;
+}
+
+.buttonHeader{
+    background-color: var(--azul);
+    border: none;
+    font-size: 18px;
+}
+
+.buttonHeader:hover{
+    border-bottom: 1px solid var(--roxo);
+}
+
+.link{
+    color: var(--roxo);
+    text-decoration: none;
+}
+
+.popsFont{
+    font-size: 25px;
+    font-weight: 400;
+}

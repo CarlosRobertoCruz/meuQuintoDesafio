@@ -1,0 +1,44 @@
+.h1Home{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.h3Home{
+    font-size: 24px;
+}
+
+.pHome{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mainHome{
+    display: flex;
+    justify-content: center;
+}
+
+.alinahmentoMainHome{
+    max-width: 75%;
+}
+
+.divH1Home{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    margin-bottom: 58px
+}
+
+.sectionCardsHome{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pHomeCard{
+    width: 400px;
+    margin-bottom: 44px;
+}
+
+.imgsHome{
+    margin-top: 44px;
+    margin-bottom: 17px;
+}

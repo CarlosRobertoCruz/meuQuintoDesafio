@@ -1,0 +1,139 @@
+/* Cores */
+
+.h1Usuario{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pUsuario{
+    color: var(--roxo);
+    font-size: 20px;
+}
+
+.inputUsuario{
+    width: 320px;
+    height: 58px;
+    margin-top: 9px;
+}
+
+.cadastrarUsuario{
+    background-color: var(--laranja);
+    color: var(--branco);
+    border: 1px solid var(--laranja);
+    width: 180px;
+    height: 58px;
+    font-size: 20px;
+}
+
+.cadastrarUsuario:hover{
+    color: var(--laranja);
+    background-color: var(--branco);
+    border: 1px solid var(--laranja);
+}
+
+.editarUsuario{
+    background-color: var(--laranja);
+    color: var(--branco);
+    width: 125px;
+    height: 35px;
+    border: 1px solid var(--laranja);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+.editarUsuario:hover{
+    color: var(--laranja);
+    background-color: var(--branco);
+    border: 1px solid var(--laranja);
+}
+
+.excluirUsuario{
+    background-color: var(--azulEscuro);
+    width: 125px;
+    height: 35px;
+    border: 1px solid var(--azulEscuro);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.excluirUsuario:hover{
+    color: var(--azulEscuro);
+    background-color: var(--branco);
+    border: 1px solid var(--azulEscuro);
+}
+
+/* Posicionamento */
+
+.mainUsuario{
+    display: flex;
+    justify-content: center;
+}
+
+.alinahmentoMain{
+    width: 75%;
+}
+
+.cadastroDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+
+.baseH1{
+    display: flex;
+    flex-direction: column;
+    height: 183px;
+    justify-content: space-between;
+}
+
+.divInputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divCardsUsuarios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionDoisUsuario{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 81px;
+    margin-bottom: 85px;
+}
+
+.buttonsUsuarioDiv{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.divCardsUsuarios{
+    display: flex;
+    flex-direction: column;
+}
+
+.divDasCardsUsuarios{
+    display: flex;
+    width: 627px;
+    justify-content: space-between;
+}
+
+.contatosUsuarios{
+    display: flex;
+    justify-content: space-between;
+    width: 322px;
+}
+
+.alturaContatosUsuario{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

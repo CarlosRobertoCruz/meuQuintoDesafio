@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --azul: #9BD2DE;
+    --roxo: #4B2142;
+    --laranja: #F6511D;
+    --branco: #fff;
+    --brancoUmPoucoMaisEcuro: #FFFCFC;
+    --azulEscuro: #41B8D2;
+    --preto: #000;
+}
+
+main{
+    font-family: 'Roboto', sans-serif;
+}
+
+::placeholder{
+    color: var(--roxo);
+}
+
+input{
+    border: 1px solid var(--preto);
+}

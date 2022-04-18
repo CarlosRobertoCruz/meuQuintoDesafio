@@ -1,0 +1,41 @@
+.footer{
+    background-color: var(--laranja);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.alinhamentoFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.imgFooter{
+    max-width: 177px;
+    max-height: 62px;
+}
+
+.pFooter{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--brancoUmPoucoMaisEcuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+}
+
+.barraDivisoria{
+    width: 2px;
+    height: 200px;
+    background-color: var(--branco);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ladoFooter{
+    height: 162px;
+}
+

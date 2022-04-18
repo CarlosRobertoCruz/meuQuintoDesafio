@@ -1,0 +1,159 @@
+/* Espaçamentos e tamanhos */
+
+.mainFilmes{
+    display: flex;
+    justify-content: center;
+}
+
+.alinhamentoMainFilmes{
+    width: 75%;
+}
+
+.divH1Filme{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h1Filme{
+    font-size: 21px;
+}
+
+.imgFilme{
+    width: 100px;
+    height: 100px;
+}
+
+/* Tamanho e cores */
+
+.h2Cadastrar{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.inputCadastrarFilmes{
+    width: 372px;
+    height: 54px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 0px 0px 24px;
+}
+
+.tamanhoPlaceholder{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sectionFilmes{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 0px 0px 24px;
+    color: var(--roxo);
+}
+
+.sectionFilmes{
+    width: 400px;
+    height: 58px;
+}
+
+.salvarFIlmes{
+    width: 180px;
+    height: 58px;
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid var(--laranja);
+}
+
+.salvarFIlmes:hover{
+    background-color: var(--branco);
+    color: var(--laranja);
+    border: 2px solid var(--laranja);
+}
+
+.pFilmes{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--roxo);
+}
+
+.editarFilmes{
+    background-color: var(--laranja);
+    color: var(--branco);
+    width: 125px;
+    height: 35px;
+    border: 1px solid var(--laranja);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.editarFilmes:hover{
+    background-color: var(--branco);
+    color: var(--laranja);
+    border: 1px solid var(--laranja);
+}
+
+.excluirFilmes{
+    background-color: var(--azulEscuro);
+    width: 125px;
+    height: 35px;
+    border: 1px solid var(--azulEscuro);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.excluirFilmes:hover{
+    background-color: var(--branco);
+    color: var(--azulEscuro);
+    border: 1px solid var(--azulEscuro);
+}
+
+
+/* posicionamento */
+
+.alinhamentoInputsFilmes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nucleoInputFilmes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divH2Filmes{
+    height: 44px;
+}
+
+.sectionDoisFilmes{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 67px;
+    justify-content: space-between;
+}
+
+.divNucleoUmFilmes{
+    display: flex;
+    height: 171px;
+    justify-content: space-between;
+    width: 390px;
+}
+
+
+.buttonsFilmes{
+    display: flex;
+    flex-direction: column;
+    height: 171px;
+    justify-content: space-between;
+}
+
+.espaçamentoPFilmes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

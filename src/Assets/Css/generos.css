@@ -1,0 +1,132 @@
+/* Cores e tamanhos */
+
+.h1Generos{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.imgGeneros{
+    width: 90px;
+    height: 90px;
+}
+
+.h2Generos{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.inputGenero{
+    width: 396px;
+    height: 54px;
+}
+
+.inputGenero::placeholder{
+    font-size: 20px;
+    color: var(--roxo);
+    padding: 0px 0px 0px 24px;
+}
+
+.salvarGeneros{
+    width: 180px;
+    height: 58px;
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid var(--laranja);
+}
+
+.salvarGeneros:hover{
+    background-color: var(--branco);
+    border: 2px solid var(--laranja);
+    color: var(--laranja);
+}
+
+.pGeneros{
+    color: var(--roxo);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.editarGenero{
+    background-color: var(--laranja);
+    color: var(--branco);
+    width: 125px;
+    height: 35px;
+    border: 1px solid var(--laranja);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.editarGenero:hover{
+    background-color: var(--branco);
+    color: var(--laranja);
+    border: 1px solid var(--laranja);
+}
+
+.excluirGenero{
+    background-color: var(--azulEscuro);
+    width: 125px;
+    height: 35px;
+    border: 1px solid var(--azulEscuro);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.excluirGenero:hover{
+    background-color: var(--branco);
+    color: var(--azulEscuro);
+    border: 1px solid var(--azulEscuro);
+}
+
+/* Posicionamentos */
+
+.mainGenero{
+    display: flex;
+    justify-content: center;
+}
+
+.primeiraSectionGeneros{
+    margin-top: 31px;
+}
+
+.alinhamentoGenero{
+    width: 75%;
+}
+
+.tituloGenero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 131px;
+    justify-content: space-between;
+}
+
+.baseDoTituloGenero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.nucleoBase{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.segundaSectionGeneros{
+    display: flex;
+    justify-content: space-between;
+    height: 257px;
+}
+
+.divsNucleosSegundaSections{
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
